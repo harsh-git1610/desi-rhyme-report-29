@@ -1,6 +1,6 @@
 
 import Layout from "@/components/layout/Layout";
-import { Microphone, ChevronRight, Users, Image } from "lucide-react";
+import { Mic, ChevronRight, Users, Image } from "lucide-react";
 
 const Newcomers = () => {
   return (
@@ -80,7 +80,7 @@ const Newcomers = () => {
             {/* Music Information */}
             <div className="space-y-4">
               <h3 className="text-lg font-semibold text-white flex items-center">
-                <Microphone className="h-5 w-5 mr-2 text-hiphop-primary" />
+                <Mic className="h-5 w-5 mr-2 text-hiphop-primary" />
                 Music Information
               </h3>
               

@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Microphone } from "lucide-react";
+import { Mic } from "lucide-react";
 
 const SubmissionBanner = () => {
   return (
@@ -21,7 +21,7 @@ const SubmissionBanner = () => {
               to="/newcomers"
               className="btn-primary text-center py-3 px-8 flex items-center justify-center"
             >
-              <Microphone className="h-5 w-5 mr-2" />
+              <Mic className="h-5 w-5 mr-2" />
               Submit Your Music
             </Link>
             <Link
